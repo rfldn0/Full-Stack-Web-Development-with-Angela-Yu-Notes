@@ -102,9 +102,9 @@ As a capstone project and personal challenge, I’m building a **Pomodoro RPG** 
 ---
 
 ## 📌 Stay Connected
-- [🌐 GitHub: @rfldn0](https://github.com/rfldn0)
+- [GitHub: @rfldn0](https://github.com/rfldn0)
 
-- [💼 LinkedIn: Victor R. Tabuni](https://www.linkedin.com/in/victor-rifaldino-tabuni-14856628b/)
+- [LinkedIn: Victor R. Tabuni](https://www.linkedin.com/in/victor-rifaldino-tabuni-14856628b/)
 
 
  
