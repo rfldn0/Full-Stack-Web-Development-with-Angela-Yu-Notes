@@ -118,9 +118,62 @@ Four main ways of doing this: 
   
 ### CSS Flexbox
 
-### External Framework e.g. Bootstrap
-    
+If grid applies to two d layout, then flex is flexible for a one dimensional layout. 
+![[Pasted image 20250802205733.png]]
 
-  
-  
-**
+- Where a div container, contains four containers. 
+- There is a two special class contained for first and second child div. 
+- Using flex property to set a complex ratio.
+- flex is basically a dynamic width of the parent width. 
+- Divide a single dimensions in a more flexible way.
+- There is no fixed width, perhaps the width is just the maximum width. 
+
+
+### External Framework e.g. Bootstrap
+
+Something that is defined of external source, it is a framework, so you don't have to make a card, theme, divs, and so forth and so on. 
+
+- They also have flex system. 
+- Because they are built on-top of flexbox. 
+- Good for responsiveness.
+- Styling comes in easily. 
+
+![[Pasted image 20250802210422.png]]
+
+
+Note: *Which one is the best?
+- They are just tools
+- They're all have different speciallities. 
+- They have strength and weaknesses. 
+
+
+
+# Media Queries 
+
+Media query can help us to style based on a particular device, by setting the width and height. 
+
+![[Pasted image 20250802212132.png]]
+
+- It states that we will have 15px font-size when the width is 600px for phones. 
+
+**When the width is at x, the styling bellow is applied**.
+
+Note: *it overrides the default style*
+![[Pasted image 20250802212326.png]]
+- We can use min-width
+- Anything from the 600px above we will have 15px font-size.. 
+- We can also use **max-width** to target anything that is less than 600 px, which is the maximum width. 
+
+![[Pasted image 20250802212502.png]]
+- There is also combination using AND keyword. 
+- Combine things to make the sizing of the screen. 
+- In accordance with the width of the screen. 
+
+![[Pasted image 20250802212612.png]]
+- There is also screen keyword; 
+- Target only your website when it is being printed. 
+- Targeting screen when the layout is landscape.
+- Not really necessary by default. 
+- Use media query to target only your website when it is being printed, to be given a different layout. Kind of vague explanation for me. 
+
+For more media queries: [developer.movilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)  
